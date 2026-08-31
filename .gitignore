@@ -66,4 +66,4 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-!Node/02_package_module/
+!Node/02_package_module/node_modules
