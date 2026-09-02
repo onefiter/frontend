@@ -1,0 +1,1 @@
+(()=>{const o="Hello World";function l(o){console.log(o.length)}console.log(o),l(o),l("dw")})();
