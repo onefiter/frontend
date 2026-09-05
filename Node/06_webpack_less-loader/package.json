@@ -1,0 +1,19 @@
+{
+  "name": "06_webpack_less-loader",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config wk.config.js"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "less-loader": "^13.0.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.110.3",
+    "webpack-cli": "^7.2.3"
+  }
+}
