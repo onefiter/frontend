@@ -7,9 +7,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config wk.config.js"
   },
   "devDependencies": {
+    "css-loader": "^7.1.5",
+    "style-loader": "^4.0.0",
     "webpack": "^5.110.3",
     "webpack-cli": "^7.2.3"
   }
