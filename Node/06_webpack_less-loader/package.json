@@ -10,8 +10,10 @@
     "build": "webpack --config wk.config.js"
   },
   "devDependencies": {
+    "autoprefixer": "^10.5.5",
     "css-loader": "^7.1.5",
     "less-loader": "^13.0.0",
+    "postcss-loader": "^8.2.1",
     "style-loader": "^4.0.0",
     "webpack": "^5.110.3",
     "webpack-cli": "^7.2.3"

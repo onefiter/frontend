@@ -27,7 +27,15 @@ module.exports = {
                 test: /\.css$/,
                 use: [ // use中多个loader的使用顺序是从后向前的
                     { loader: "style-loader" },
-                    { loader: "css-loader" }
+                    { loader: "css-loader" },
+                    {
+                        loader: "postcss-loader",
+                        options: {
+                            postcssOptions: {
+                                plugins: ["autoprefixer"]
+                            }
+                        }
+                    }
 
                 ]
             }
